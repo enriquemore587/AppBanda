@@ -12,6 +12,14 @@
 		D6CD40A1234287670036ABB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD409F234287670036ABB1 /* Main.storyboard */; };
 		D6CD40A3234287680036ABB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6CD40A2234287680036ABB1 /* Assets.xcassets */; };
 		D6CD40A6234287680036ABB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6CD40A4234287680036ABB1 /* LaunchScreen.storyboard */; };
+		D6CD40AE23428ADD0036ABB1 /* CloseExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40AD23428ADC0036ABB1 /* CloseExtention.swift */; };
+		D6CD40B2234294490036ABB1 /* DiscoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40B1234294490036ABB1 /* DiscoTableViewController.swift */; };
+		D6CD40B4234297910036ABB1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40B3234297910036ABB1 /* Album.swift */; };
+		D6CD40B623429B440036ABB1 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40B523429B440036ABB1 /* AlbumDetailViewController.swift */; };
+		D6CD40B82342B3AA0036ABB1 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40B72342B3AA0036ABB1 /* TriviaViewController.swift */; };
+		D6CD40BA2342BBBB0036ABB1 /* RespTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40B92342BBBB0036ABB1 /* RespTriviaViewController.swift */; };
+		D6CD40BC2342C0FF0036ABB1 /* SouvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40BB2342C0FF0036ABB1 /* SouvViewController.swift */; };
+		D6CD40BE2342CCFC0036ABB1 /* CompraFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD40BD2342CCFC0036ABB1 /* CompraFinishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		D6CD40A2234287680036ABB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6CD40A5234287680036ABB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6CD40A7234287680036ABB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6CD40AD23428ADC0036ABB1 /* CloseExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseExtention.swift; sourceTree = "<group>"; };
+		D6CD40B1234294490036ABB1 /* DiscoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoTableViewController.swift; sourceTree = "<group>"; };
+		D6CD40B3234297910036ABB1 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		D6CD40B523429B440036ABB1 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		D6CD40B72342B3AA0036ABB1 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		D6CD40B92342BBBB0036ABB1 /* RespTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespTriviaViewController.swift; sourceTree = "<group>"; };
+		D6CD40BB2342C0FF0036ABB1 /* SouvViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouvViewController.swift; sourceTree = "<group>"; };
+		D6CD40BD2342CCFC0036ABB1 /* CompraFinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraFinishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				D6CD40A2234287680036ABB1 /* Assets.xcassets */,
 				D6CD40A4234287680036ABB1 /* LaunchScreen.storyboard */,
 				D6CD40A7234287680036ABB1 /* Info.plist */,
+				D6CD40AD23428ADC0036ABB1 /* CloseExtention.swift */,
+				D6CD40B1234294490036ABB1 /* DiscoTableViewController.swift */,
+				D6CD40B3234297910036ABB1 /* Album.swift */,
+				D6CD40B523429B440036ABB1 /* AlbumDetailViewController.swift */,
+				D6CD40B72342B3AA0036ABB1 /* TriviaViewController.swift */,
+				D6CD40B92342BBBB0036ABB1 /* RespTriviaViewController.swift */,
+				D6CD40BB2342C0FF0036ABB1 /* SouvViewController.swift */,
+				D6CD40BD2342CCFC0036ABB1 /* CompraFinishViewController.swift */,
 			);
 			path = AppBanda;
 			sourceTree = "<group>";
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CD40AE23428ADD0036ABB1 /* CloseExtention.swift in Sources */,
+				D6CD40BA2342BBBB0036ABB1 /* RespTriviaViewController.swift in Sources */,
+				D6CD40B82342B3AA0036ABB1 /* TriviaViewController.swift in Sources */,
 				D6CD409E234287670036ABB1 /* ViewController.swift in Sources */,
+				D6CD40BE2342CCFC0036ABB1 /* CompraFinishViewController.swift in Sources */,
+				D6CD40BC2342C0FF0036ABB1 /* SouvViewController.swift in Sources */,
+				D6CD40B2234294490036ABB1 /* DiscoTableViewController.swift in Sources */,
 				D6CD409C234287670036ABB1 /* AppDelegate.swift in Sources */,
+				D6CD40B4234297910036ABB1 /* Album.swift in Sources */,
+				D6CD40B623429B440036ABB1 /* AlbumDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
